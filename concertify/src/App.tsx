@@ -1,13 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import ConcertGrid from "./components/ConcertGrid"
 import "./App.css";
 import "./index.css";
 import Footer from "./components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
+<<<<<<< HEAD
     <div className="App grid align-middle gap-5">
       <div className="flex justify-center py-12">
         <a href="https://vitejs.dev" target="_blank">
@@ -31,7 +31,13 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Footer />
+=======
+    
+    <div className="">
+    <ConcertGrid/>
+>>>>>>> main
     </div>
+
   );
 }
 
