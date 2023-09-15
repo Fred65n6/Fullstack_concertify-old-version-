@@ -12,8 +12,8 @@ function App() {
     <ConcertGrid/>
     <Footer />
     </div>
-
   );
+  
 }
 
 export default App;
